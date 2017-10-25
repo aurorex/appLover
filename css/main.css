@@ -70,13 +70,13 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
-*{
+*{/* selector universal*/
 
   font-family: sans-serif;
 }
-header{
-  position: static;
 
+header{/*encabezado*/
+  position: static;
 }
 
 .navigation-bar {
@@ -86,7 +86,7 @@ header{
   background:white;
 }
 
-.navigation-bar a{
+.navigation-bar a{/*llamando al elemento anchor*/
   margin-left: 30px;
   font-family: sans-serif;
   font-size: 20px;
@@ -110,12 +110,12 @@ header{
   color:white;
 }
 
-.box-init{
+.box-init{/*caja incial*/
   text-align: center;
   width:100%;
   color:white;
   height:500px;
-  text-transform: uppercase;
+  text-transform: uppercase;/*transforma las letras de la caja inicial a mayuscula*/
 }
 
 img{
